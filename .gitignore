@@ -1,0 +1,80 @@
+
+__pycache__/
+logs/
+submitted.sql3
+
+# figures
+reports/figures/*.pdf
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# captum 
+/notebooks/captum/
+
+# DotEnv configuration
+.env
+
+# Mac OS-specific storage files
+.DS_Store
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+eggs/
+.eggs/
+
+# exclude data from source control by default
+/data/fluoMNs/
+/data/target/
+
+#*.pdf
+#*.ai
+#*.png
+#*.jpg
+#*.ijm
+
+# exclude models (put separately on Zenodo)
+/models/
+
+# exclude lock csv
+*.lock
+
+# Pycharm
+.idea
+
+# Sphinx documentation
+docs/build/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+
+# My files (TODO: remove later)
+config/config_grid.yml
+
+
+scripts/
+conda/
+
+test*.ipynb
+create_annotation_file_fluoMN.ipynb
+create_annotation_file_fluoMN-IDR.ipynb
+
+/data/test_images/*.tif
+/data/protocols/ml240*
+/data/previous*
+/data/zenodo_subset
+/data/metadata_fluoMNs_anonymized.xlsx
+
+results/image_probabilities_ml240.csv
+
+
+

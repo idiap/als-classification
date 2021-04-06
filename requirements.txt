@@ -1,0 +1,35 @@
+# local package
+-e .
+
+# notebooks
+jupyter
+
+# image library
+pillow
+scikit-image
+
+# pytorch
+torch
+torchvision
+
+# utilities
+scipy
+numpy
+pandas
+matplotlib
+scikit-learn
+pyyaml
+
+# commands
+click
+
+# documentation
+sphinx
+sphinxcontrib-programoutput
+sphinx_rtd_theme
+sphinx-click
+
+# tests
+pytest
+pytest_mock
+

@@ -1,0 +1,5 @@
+batch_size: #  e.g. 32
+n_epochs: # e.g. 10
+learning_rate: # e.g. 0.001
+source_directory: # absolute path to folder where data is stored
+target_directory: # absolute path to folder where data folders can be created for training

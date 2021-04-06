@@ -1,0 +1,8 @@
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - pip:
+      - -r requirements.txt
