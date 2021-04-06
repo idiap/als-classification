@@ -46,7 +46,7 @@ When you use a command and need to choose a config, please choose `user`. You ca
 
 #### Models
 
-Models can be quite long to train given the large number of images. If you want to evaluate models which are already trained, you can find them [**here**](https://www.idiap.ch/resource/fluoMNs_models). Put the downloaded models under `models`. 
+Models can be quite long to train given the large number of images. If you want to evaluate models which are already trained, you can find them **here** (TBA). Put the downloaded models under `models`. 
 
 
 ## Getting Started
