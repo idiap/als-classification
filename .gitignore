@@ -57,24 +57,6 @@ coverage.xml
 *.cover
 
 
-# My files (TODO: remove later)
-config/config_grid.yml
-
-
-scripts/
-conda/
-
-test*.ipynb
-create_annotation_file_fluoMN.ipynb
-create_annotation_file_fluoMN-IDR.ipynb
-
-/data/test_images/*.tif
-/data/protocols/ml240*
-/data/previous*
-/data/zenodo_subset
-/data/metadata_fluoMNs_anonymized.xlsx
-
-results/image_probabilities_ml240.csv
 
 
 
