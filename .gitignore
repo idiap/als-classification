@@ -4,7 +4,7 @@ logs/
 submitted.sql3
 
 # figures
-reports/figures/*.pdf
+reports/figures/*
 
 # Jupyter NB Checkpoints
 .ipynb_checkpoints/
@@ -35,7 +35,7 @@ eggs/
 #*.ijm
 
 # exclude models (put separately on Zenodo)
-/models/
+/models/*/*.pt
 
 # exclude lock csv
 *.lock
