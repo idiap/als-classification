@@ -51,9 +51,6 @@ def classify(config_name, classification, protocol_name, channels, fold, save_st
 
     # initialize mobilenet pre-trained model
     model = models.mobilenet_v2(pretrained=True)
-    # freeze first layers
-    for f in model.features:
-        f.requires_grad = False
     num_ftrs = model.classifier[1].in_features
     model.classifier[1] = nn.Linear(num_ftrs, 2)  # binary classification
 
