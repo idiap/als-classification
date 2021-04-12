@@ -151,4 +151,5 @@ class Database:
                     protocols_stats[stress_label].loc[protocol.name] = 0
             if debug:
                 print(protocols_stats.loc[protocol.name])
-        protocols_stats.to_csv(f'../data/protocols/protocols_stats.csv', index_label='protocol')
+        path = os.path.join(utils.get_project_root(), 'data/protocols/protocols_stats.csv')
+        protocols_stats.to_csv(path, index_label='protocol')

@@ -66,7 +66,7 @@ Go to `docs` > `build` > `html` and open `index.html` in your browser.
 
 You can make sure everything is working correctly with the following command:
 ```bash
-python -sv ../src/test/
+pytest -sv src/test/
 ```
 
 ## Contact 
