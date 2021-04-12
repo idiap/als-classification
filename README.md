@@ -5,7 +5,7 @@ This project aims to increase our understanding of **Amyotrophic Lateral Scleros
 It deals with the classification of cultures of human induced Pluripotent Stem Cells (iPSCs) motor neurons. 
 The neurons are either healthy, or contain the ALS mutation, and are put under different cellular stress (osmotic, oxidative and heat). 
 
-The project is described in a paper submitted on BiorXiv which you can find **here** [TBA]
+The project is described in a paper submitted on BiorXiv which you can find [**here**](https://www.biorxiv.org/content/10.1101/2021.04.08.439054v1)
 
 
 ## Installation 
