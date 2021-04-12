@@ -25,8 +25,8 @@ import pytest
 import os
 
 database = Database()
-protocol = Protocol(['control', 'als'], ['oxidative'], 'hnRNPK')
-channels = ['DAPI', 'BIII', 'hnRNPK']
+protocol = Protocol(['control', 'als'], ['untreated'], 'TDP-43')
+channels = ['DAPI', 'BIII', 'TDP-43']
 fold = 0
 classification = 'als'
 train_indices, test_indices = database.cross_validation('als', protocol, fold)
@@ -50,7 +50,7 @@ def test_get_image_id(input_, output_):
     assert CustomDataset.get_image_id(*input_) == output_
 
 
-@pytest.mark.parametrize("input_,output_", [(('E68', 'P1', '001-002'), 'E68/P1/001-002.tif'), ])
+@pytest.mark.parametrize("input_,output_", [(('screenE', 'P1', '001-002'), 'screenE/P1/001-002.tif'), ])
 def test_get_filename(input_, output_):
     actual = train_dataset.get_filename(*input_)
     assert actual == f'{train_dataset.source_directory}/{output_}'
@@ -59,8 +59,8 @@ def test_get_filename(input_, output_):
 def test_init():
     assert not train_dataset.df.empty
     assert not test_dataset.df.empty
-    assert len(train_dataset) == 1376
-    assert len(test_dataset) == 160
+    assert len(train_dataset) == 9904
+    assert len(test_dataset) == 1104
 
 
 @pytest.mark.parametrize("sample", [(train_dataset.df.loc[0])])
