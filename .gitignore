@@ -25,8 +25,9 @@ eggs/
 .eggs/
 
 # exclude data from source control by default
-/data/fluoMNs/
-/data/target/
+data/fluoMNs/
+data/target/
+data/test_images/
 
 #*.pdf
 #*.ai
@@ -35,7 +36,7 @@ eggs/
 #*.ijm
 
 # exclude models (put separately on Zenodo)
-/models/*/*.pt
+models/*
 
 # exclude lock csv
 *.lock
