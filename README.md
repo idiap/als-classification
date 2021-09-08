@@ -31,11 +31,11 @@ conda env update -f environment.yml # add packages from requirements.txt
 
 #### Database 
 
-The database is separated from the package and can be downloaded **here** [TBA]. 
+The database is separated from the package and can be downloaded [**here**](https://doi.org/10.17867/10000167). 
 **CAUTION**: the dataset is very large (~1TB) so make sure you have enough space to store it. 
 You can either put it in the `data` folder or choose your own location. In the next step, you will enter the location of the folder you chose in the configuration file. 
 
-**Note**: The complete database is not available on IDR yet, but a subset of the database can be downloaded [**here**](https://zenodo.org/record/4664177) in the meantime. 
+**Note**: If the complete dataset is too large for you, a subset of the database can be downloaded [**here**](https://zenodo.org/record/4664177). 
 
 
 #### Configuration file
